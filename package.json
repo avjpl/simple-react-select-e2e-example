@@ -1,0 +1,22 @@
+{
+  "name": "seleniumWebdriverDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "mochawesome": "mocha --reporter mochawesome --reporter-options autoOpen=true"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^2.34.0",
+    "geckodriver": "^1.10.0",
+    "mocha": "^4.1.0",
+    "mochawesome": "^3.0.1",
+    "sinon": "^4.1.3"
+  }
+}
